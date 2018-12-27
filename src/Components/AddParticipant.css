@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+  .form-group input {
+    margin: 10px 0;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+.form label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-control-lg {
+  margin-left: 16px;
+  padding-left: 0;
+}
+
+.form-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  height: 40px;
+}

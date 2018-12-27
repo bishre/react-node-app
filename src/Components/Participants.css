@@ -1,0 +1,15 @@
+thead tr {
+  height: 48px;
+}
+
+tbody tr {
+  height: 72px;
+  margin-left: 24px;
+}
+
+th {
+  color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}

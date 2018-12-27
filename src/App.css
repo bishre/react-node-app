@@ -1,0 +1,78 @@
+.App {
+  margin: 0;
+}
+
+.header {
+  background-color: grey;
+  color: red;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.logo {
+  align-self: flex-start;
+  margin: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.App-header {
+  background-color: #aab3bf;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h3 {
+  height: 32px;
+  margin-top: 32px;
+  font-size: 26px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-body {
+  padding: 2em;
+  background-color: #e6e9ed;
+}
+
+.list-title {
+  margin: 2em;
+  margin-left: 0;
+}
+
+.addParticipant {
+  background-color: white;
+  margin: 16px 0;
+  padding: 16px 16px 0 16px;
+  width: 912px;
+  justify-content: center;
+}
+
+.table {
+  background-color: white;
+  width: 912px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .addParticipant {
+    width: 100%;
+  }
+}
