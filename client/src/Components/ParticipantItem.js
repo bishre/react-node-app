@@ -44,20 +44,21 @@ class ParticipantItem extends Component {
       editing: false
     }
   }
-
+  // handler for the edit button that makes the data editable
   handleClick() {
     const { editing }=this.state;
     this.setState({
       editing: !editing
     })
   };
-
+  // handler for the cancel button to cancel edit
   cancelEdit() {
     this.setState({
       editing: false
     })
   }
 
+//handler function that fetches /persons api and save the edited data
   saveChanges(e) {
     e.preventDefault();
     const valueList={
@@ -74,7 +75,7 @@ class ParticipantItem extends Component {
     this.props.handleClick(this.props.index, valueList);
     this.handleClick();
   }
-
+  //change handler
   handleChange(e) {
     this.props.changeValue(e.target.value);
   }

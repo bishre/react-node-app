@@ -3,6 +3,7 @@ import './AddParticipant.css';
 import * as type from 'prop-types';
 
 class AddParticipant extends Component {
+  //handler function that fetches /persons api to post new data
   handleSubmit(e) {
     e.preventDefault();
       var newParticipant={

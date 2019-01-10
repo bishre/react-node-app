@@ -9,6 +9,7 @@ const headStyle = {
 }
 
 class Participants extends Component {
+  //calling delete method in the api
   deleteParticipant(id) {
     fetch('/persons', {
       method: 'DELETE',
